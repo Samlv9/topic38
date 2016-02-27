@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <Name>topic38</Name>
+    <RootNamespace>topic38</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>dc283f5f-fa0f-4243-ba61-3ca84dca314d</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>server.js</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <ProjectView>ShowAllFiles</ProjectView>
+    <NodejsPort>1337</NodejsPort>
+    <StartWebBrowser>true</StartWebBrowser>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="server.js" />
+    <Content Include="author\2016 3.8节 专题.jpg" />
+    <Content Include="author\2016 3.8节 专题.psd" />
+    <Content Include="wwwroot\bitmaps\common\app_download_qrcode.png" />
+    <Content Include="wwwroot\bitmaps\common\backindex.png" />
+    <Content Include="wwwroot\bitmaps\common\brandlist.png" />
+    <Content Include="wwwroot\bitmaps\common\linear.jpg" />
+    <Content Include="wwwroot\bitmaps\common\topbanner.jpg" />
+    <Content Include="wwwroot\bitmaps\common\spotlight_01.png" />
+    <Content Include="wwwroot\bitmaps\common\spotlight_02.png" />
+    <Content Include="wwwroot\bitmaps\common\spotlight_03.png" />
+    <Content Include="wwwroot\bitmaps\common\spotlight_04.png" />
+    <Content Include="wwwroot\bitmaps\common\foot_banner.png" />
+    <Content Include="wwwroot\bitmaps\thumbs\table_banner_01.jpg" />
+    <Content Include="wwwroot\bitmaps\thumbs\table_banner_02.jpg" />
+    <Content Include="wwwroot\bitmaps\thumbs\table_banner_03.jpg" />
+    <Content Include="wwwroot\bitmaps\thumbs\table_goods_01.png" />
+    <Content Include="wwwroot\bitmaps\thumbs\table_goods_02.png" />
+    <Content Include="wwwroot\bitmaps\thumbs\table_goods_03.png" />
+    <Content Include="wwwroot\bitmaps\thumbs\table_goods_04.png" />
+    <Content Include="wwwroot\bitmaps\thumbs\table_goods_05.png" />
+    <Content Include="wwwroot\bitmaps\thumbs\table_goods_06.png" />
+    <Content Include="wwwroot\bitmaps\thumbs\table_goods_07.png" />
+    <Content Include="wwwroot\bitmaps\thumbs\table_goods_08.png" />
+    <Content Include="wwwroot\bitmaps\thumbs\table_goods_09.png" />
+    <Content Include="wwwroot\bitmaps\thumbs\table_goods_10.png" />
+    <Content Include="wwwroot\bitmaps\thumbs\table_goods_11.png" />
+    <Content Include="wwwroot\bitmaps\thumbs\table_goods_12.png" />
+    <Content Include="wwwroot\bitmaps\thumbs\table_goods_13.png" />
+    <Content Include="wwwroot\bitmaps\thumbs\table_goods_14.png" />
+    <Content Include="wwwroot\bitmaps\thumbs\table_goods_15.png" />
+    <Content Include="wwwroot\bitmaps\thumbs\table_goods_16.png" />
+    <Content Include="wwwroot\bitmaps\thumbs\table_goods_17.png" />
+    <Content Include="wwwroot\bitmaps\thumbs\table_goods_18.png" />
+    <Content Include="wwwroot\bitmaps\thumbs\table_goods_19.png" />
+    <Content Include="wwwroot\bitmaps\thumbs\table_goods_20.png" />
+    <Content Include="wwwroot\bitmaps\thumbs\table_goods_21.png" />
+    <Content Include="wwwroot\bitmaps\thumbs\table_goods_22.png" />
+    <Content Include="wwwroot\bitmaps\thumbs\table_goods_23.png" />
+    <Content Include="wwwroot\bitmaps\thumbs\table_goods_24.png" />
+    <Content Include="wwwroot\bitmaps\thumbs\table_goods_25.png" />
+    <Content Include="wwwroot\bitmaps\thumbs\table_goods_26.png" />
+    <Content Include="wwwroot\bitmaps\thumbs\table_goods_27.png" />
+    <Content Include="wwwroot\bitmaps\thumbs\table_goods_28.png" />
+    <Content Include="wwwroot\index.html" />
+    <Content Include="package.json" />
+    <Content Include="README.md" />
+    <Content Include="wwwroot\libraries\normalize.css" />
+    <Content Include="wwwroot\stylesheets\common.css" />
+    <Content Include="wwwroot\stylesheets\index.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="author\" />
+    <Folder Include="wwwroot\" />
+    <Folder Include="wwwroot\bitmaps\" />
+    <Folder Include="wwwroot\bitmaps\thumbs\" />
+    <Folder Include="wwwroot\bitmaps\common\" />
+    <Folder Include="wwwroot\libraries\" />
+    <Folder Include="wwwroot\stylesheets\" />
+  </ItemGroup>
+  <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48022/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

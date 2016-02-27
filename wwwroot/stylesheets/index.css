@@ -1,0 +1,160 @@
+﻿body {
+    background-color: #b80064;
+    min-width: 900px;
+}
+
+#stage {
+    position: relative;
+    overflow: hidden;
+}
+
+#content {
+    width: 868px;
+    margin: 0 auto;
+}
+
+#topBanner {
+    position: relative;
+    width: 1700px;
+    height: 704px;
+    margin-left: -416px;
+    background: url(../bitmaps/common/topbanner.jpg) no-repeat 0px 0px;
+    background-size: cover;
+}
+
+#topAppLink {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    margin-right: 290px;
+    margin-bottom: 70px;
+}
+
+#footer > .footer-banner,
+#footer > .footer-brands,
+#footer > .footer-controls {
+    position: relative;
+    z-index: 1;
+
+}
+
+#footer > .footer-banner {
+    width: 868px;
+    height: 336px;
+    background: url(../bitmaps/common/foot_banner.png) no-repeat top center;
+}
+
+#footer > .footer-brands {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding-top: 12px;
+}
+
+#footer > .footer-controls {
+    padding: 40px 0px;
+}
+
+#footer > .footer-brands .brandsinto {
+    font-family: 'Microsoft YaHei', Tahoma, sans-serif;
+    font-size: 14px;
+    color: #effe01;
+    height: 18px;
+    line-height: 18px;
+    padding: 10px 0px;
+}
+
+#footer > .footer-brands .brandsinto > .lt {
+    float: left;
+}
+
+#footer > .footer-brands .brandsinto > .rt {
+    float: right;
+}
+
+
+#backIndex {
+    display: block;
+    margin: 0 auto;
+    width: 193px;
+    height: 47px;
+    background: url(../bitmaps/common/backindex.png) no-repeat 0px 0px;
+}
+
+.table {
+    background-color: #b80064;
+}
+
+.table > .table-inner {
+    width: 868px;
+    margin: 0 auto;
+}
+
+.table-container {
+    position: relative;
+    padding: 8px 0px;
+}
+
+.table-container .table-linear-background {
+    position: absolute;
+    width: 1700px;
+    top   : 0px;
+    bottom: 0px;
+    height: 100%;
+    margin-left: -416px;
+    background: url(../bitmaps/common/linear.jpg) repeat-y 0px 0px;
+}
+
+.table-container .table-linear-spotlight {
+    position: absolute;
+    left: 0px;
+    top : 0px;
+    width : 100%;
+    height: 100%;
+}
+
+.table-container .table-linear-spotlight.spotlight-01 {
+    background: url(../bitmaps/common/spotlight_01.png) no-repeat top center;
+}
+
+.table-container .table-linear-spotlight.spotlight-02 {
+    background: url(../bitmaps/common/spotlight_02.png) no-repeat top center;
+}
+
+.table-container .table-linear-spotlight.spotlight-03 {
+    background: url(../bitmaps/common/spotlight_03.png) no-repeat top center;
+}
+
+.table-container .table-linear-spotlight.spotlight-04 {
+    background: url(../bitmaps/common/spotlight_04.png) no-repeat top center;
+}
+
+.table-container .table-head,
+.table-container .table-body {
+    position: relative;
+    z-index: 1;
+}
+
+.table-container .table-row {
+    clear: both; /* #fixed for IE7+IE8 */
+}
+
+.table-container .table-row + .table-row {
+    margin-top: 4px;
+}
+
+.table-container .table-banner {
+    width: 868px;
+    height: 300px;
+    margin: 8px 0px 16px 0px;
+    display: block;
+}
+
+.table-container .table-cell {
+    float: left;
+    width : 214px;
+    height: 426px;
+}
+
+.table-container .table-cell + .table-cell {
+    margin-left: 4px;
+}

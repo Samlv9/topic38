@@ -1,0 +1,13 @@
+{
+  "name": "topic38",
+  "version": "0.0.0",
+  "description": "topic38",
+  "main": "server.js",
+  "author": {
+    "name": "Samlv9",
+    "email": "Samlv9@live.com"
+  },
+  "dependencies": {
+    "node-static": "^0.7.7"
+  }
+}
